@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTIES
+    @State private var isShowingDetailSheet: Bool = false
     
     // MARK: - BODY
     var body: some View {
@@ -23,8 +24,26 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack {
-                headerView
-                    .foregroundColor(.white)
+                HStack {
+                    headerView
+                        .foregroundColor(.white)
+                    
+                    userProfileView
+                        .onTapGesture {
+                            isShowingDetailSheet.toggle()
+                        }
+                        .sheet(isPresented: $isShowingDetailSheet) {
+                            VStack {
+                                Text("test percobaan ajah")
+                                
+                                DetailSheetView()
+                                    //.presentationDetents([.medium, .large])
+                                    .presentationDetents([.fraction(0.30), .fraction(0.50)])
+                                .presentationDragIndicator(.visible)
+                            }
+                        }
+                    
+                } //: HSTACK
                 
                 HStack(spacing: 15) {
                     PricingView(title: "Bronze", price: "$9", textColor: .white, bgColor: .blue, icon: "bell.and.waveform")
@@ -112,5 +131,19 @@ extension ContentView {
             Spacer()
         } //: HSTACK
         .padding()
+    }
+    
+    private var userProfileView: some View {
+        Color.primary
+            .frame(width: 40, height: 40)
+            .clipShape(Circle())
+            .opacity(0.1)
+            .overlay {
+                Image(systemName: "person.circle")
+                    .symbolRenderingMode(.hierarchical)
+                    .foregroundColor(.white)
+                    .scaledToFit()
+                    .padding(10)
+            }
     }
 }
