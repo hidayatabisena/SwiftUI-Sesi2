@@ -37,8 +37,8 @@ struct ContentView: View {
                                 Text("test percobaan ajah")
                                 
                                 DetailSheetView()
-                                    //.presentationDetents([.medium, .large])
-                                    .presentationDetents([.fraction(0.30), .fraction(0.50)])
+                                    .presentationDetents([.medium, .large])
+                                    //.presentationDetents([.fraction(0.30), .fraction(0.50)])
                                 .presentationDragIndicator(.visible)
                             }
                         }

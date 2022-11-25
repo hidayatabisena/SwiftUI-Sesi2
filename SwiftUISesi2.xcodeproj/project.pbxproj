@@ -15,6 +15,8 @@
 		53C13F9D2930F95C004F76B7 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C13F9C2930F95C004F76B7 /* SwiftUIState.swift */; };
 		53C13F9F2931008A004F76B7 /* SwiftUIAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C13F9E2931008A004F76B7 /* SwiftUIAlertView.swift */; };
 		53C13FA129310416004F76B7 /* DetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C13FA029310416004F76B7 /* DetailSheetView.swift */; };
+		53C13FA329310D17004F76B7 /* SwiftUILink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C13FA229310D17004F76B7 /* SwiftUILink.swift */; };
+		53C13FA529310F3B004F76B7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C13FA429310F3B004F76B7 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		53C13F9C2930F95C004F76B7 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
 		53C13F9E2931008A004F76B7 /* SwiftUIAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAlertView.swift; sourceTree = "<group>"; };
 		53C13FA029310416004F76B7 /* DetailSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheetView.swift; sourceTree = "<group>"; };
+		53C13FA229310D17004F76B7 /* SwiftUILink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILink.swift; sourceTree = "<group>"; };
+		53C13FA429310F3B004F76B7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +67,12 @@
 				5370D1D9292D1A7000EF1BA3 /* ComponentButton.swift */,
 				5370D1CD292D10A900EF1BA3 /* ContentView.swift */,
 				53C13FA029310416004F76B7 /* DetailSheetView.swift */,
+				53C13FA229310D17004F76B7 /* SwiftUILink.swift */,
 				53C13F9E2931008A004F76B7 /* SwiftUIAlertView.swift */,
 				53C13F9C2930F95C004F76B7 /* SwiftUIState.swift */,
 				5370D1CF292D10AB00EF1BA3 /* Assets.xcassets */,
 				5370D1D1292D10AB00EF1BA3 /* Preview Content */,
+				53C13FA429310F3B004F76B7 /* WebView.swift */,
 			);
 			path = SwiftUISesi2;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5370D1CE292D10A900EF1BA3 /* ContentView.swift in Sources */,
+				53C13FA529310F3B004F76B7 /* WebView.swift in Sources */,
+				53C13FA329310D17004F76B7 /* SwiftUILink.swift in Sources */,
 				53C13F9D2930F95C004F76B7 /* SwiftUIState.swift in Sources */,
 				5370D1DA292D1A7000EF1BA3 /* ComponentButton.swift in Sources */,
 				5370D1CC292D10A900EF1BA3 /* SwiftUISesi2App.swift in Sources */,

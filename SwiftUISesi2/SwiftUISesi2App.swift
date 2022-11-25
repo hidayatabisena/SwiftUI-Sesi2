@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUISesi2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwiftUILink()
         }
     }
 }
