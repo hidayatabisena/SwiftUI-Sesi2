@@ -12,6 +12,7 @@
 		5370D1D0292D10AB00EF1BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5370D1CF292D10AB00EF1BA3 /* Assets.xcassets */; };
 		5370D1D3292D10AB00EF1BA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5370D1D2292D10AB00EF1BA3 /* Preview Assets.xcassets */; };
 		5370D1DA292D1A7000EF1BA3 /* ComponentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5370D1D9292D1A7000EF1BA3 /* ComponentButton.swift */; };
+		53C13F9D2930F95C004F76B7 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C13F9C2930F95C004F76B7 /* SwiftUIState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5370D1CF292D10AB00EF1BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5370D1D2292D10AB00EF1BA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5370D1D9292D1A7000EF1BA3 /* ComponentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentButton.swift; sourceTree = "<group>"; };
+		53C13F9C2930F95C004F76B7 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				5370D1CD292D10A900EF1BA3 /* ContentView.swift */,
 				5370D1CF292D10AB00EF1BA3 /* Assets.xcassets */,
 				5370D1D1292D10AB00EF1BA3 /* Preview Content */,
+				53C13F9C2930F95C004F76B7 /* SwiftUIState.swift */,
 			);
 			path = SwiftUISesi2;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5370D1CE292D10A900EF1BA3 /* ContentView.swift in Sources */,
+				53C13F9D2930F95C004F76B7 /* SwiftUIState.swift in Sources */,
 				5370D1DA292D1A7000EF1BA3 /* ComponentButton.swift in Sources */,
 				5370D1CC292D10A900EF1BA3 /* SwiftUISesi2App.swift in Sources */,
 			);
